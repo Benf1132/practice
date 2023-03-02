@@ -1,0 +1,235 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+s{
+    text-decoration: none;
+}
+/* css starts here */
+@media (min-width:249px) and (max-width:316px){
+    .image{
+        height:55%;
+        padding-inline-start: 0%;
+    }
+        nav{
+            padding-inline-start: 0%;
+            padding-inline-end: 0%;
+        
+        }
+        .help{
+            display: none;
+        }
+        .pie{
+            font-size: .6rem;
+            color: black;
+            margin: 0 3 0 3;
+          
+        
+        }
+        .bob{
+            border: .5px solid black;
+            border-radius: 15px;
+            padding: 5 5 5 5
+        }
+    }
+@media (min-width:317px) and (max-width:401px){
+    .image{
+        height:75%;
+        padding-inline-start: 2%;
+    }
+        nav{
+            padding-inline-start: 2%;
+            padding-inline-end: 2%;
+        
+        }
+        .help{
+            display: none;
+        }
+        .pie{
+            font-size: .7rem;
+            color: black;
+            margin: 0 5 0 5;
+          
+        
+        }
+        .bob{
+            border: .5px solid black;
+            border-radius: 15px;
+            padding: 5 5 5 5
+        }
+    }
+
+@media (min-width:402px) and (max-width:467px){
+    .image{
+        height: 90%;
+        padding-inline-start: 5%;
+    }
+    nav{
+        padding-inline-start: 5%;
+        padding-inline-end: 5%;
+    
+    }
+    .help{
+        display: none;
+    }
+    .pie{
+        font-size: .8rem;
+        color: black;
+        margin: 0 6 0 6;
+      
+    
+    }
+    .bob{
+        border: .5px solid black;
+        border-radius: 15px;
+        padding: 6 6 6 6;
+    }
+}
+@media (min-width:468px) and (max-width: 577px){
+    .image{
+        height: 95%;
+        padding-inline-start: 5%;
+    }
+    nav{
+        padding-inline-start: 5%;
+        padding-inline-end: 5%;
+    
+    }
+    .help{
+        display: none;
+    }
+    .pie{
+        font-size: 1rem;
+        color: black;
+        margin: 0 8 0 8;
+      
+    
+    }
+    .bob{
+        border: .5px solid black;
+        border-radius: 15px;
+        padding: 8 8 8 8;
+    }
+}
+@media (min-width:578px) {
+    .image{
+        height: 100%;
+        padding-inline-start: 5%;
+    }
+    nav{
+        padding-inline-start: 5%;
+        padding-inline-end: 5%;
+    
+    }
+    
+    .pie{
+        font-size: 1.1rem;
+        color: black;
+        margin: 0 10 0 10;
+      
+    
+    }
+    .bob{
+        border: .5px solid black;
+        border-radius: 15px;
+        padding: 10 10 10 10;
+    }
+}
+    header{
+        padding-top: 1.2rem;
+        padding-bottom: 1.25rem;;
+        width: 100%;
+        height: 10%;
+        display: block;
+        justify-content: space-between;
+        background: white;
+        box-sizing: border-box;
+        position:fixed;
+        top: 0;
+        padding-inline-start: var(--gutter-space);
+        padding-inline-end: var(--gutter-space);
+    }
+    .header{
+        height: 100%;
+        width: 100%;
+        --gutter-space: var(--space);
+        --this-max-width: var(--site-max-width);
+        box-sizing: content-box;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        max-inline-size: var(--this-max-width);
+    
+    
+    }
+
+    .center{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        gap: var(--space, 1rem);
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    nav{
+        height: 100%;
+        box-sizing: border-box;
+        align-items: center;
+        display: flex;
+
+    
+    }
+    .let{
+        display: flex;
+        
+    }
+    
+
